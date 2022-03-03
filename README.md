@@ -4,7 +4,7 @@ Welcome to this project
 
 
 Steps for run the project:
-
+- download the project
 - open the console inside the folder "djangoproject-main"
 - create a virtual environment -> "python -m venv myvenv"
 - run the virtual environment -> "myvenv\Scripts\activate"
