@@ -1,0 +1,28 @@
+{% extends 'startup/base.html' %}
+
+{% block content %}
+    <article class="product">
+        <aside class="actions">
+        </aside>        
+        {% if product.creation_date %}
+            <time class="date">
+                {{ product.creation_date }}
+            </time>
+        {% endif %}
+        <h2>{{ product.name }}</h2>
+        <h4>codice prodotto: {{ product.code }}</h4>
+        <p>{{ product.description|linebreaksbr }}</p>
+        <a href="https://ropsten.etherscan.io/tx/{{product.transactionid}}" target="_blank">
+            <p>Link della transazione su Ropsten: {{ product.transactionid|linebreaksbr }}</p></a>
+        
+    </article>
+
+    {% for step in steps %}
+        <article class="box">
+            <time class="date2">
+                {{ step.creation_date }}
+            </time>
+        <p>{{ step.description|linebreaksbr }}</p>
+        </article>
+    {% endfor %}
+{% endblock %}
