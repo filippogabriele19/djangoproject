@@ -5,7 +5,7 @@ Welcome to this project
 
 Steps for run the project:
 
-- open the console 
+- open the console inside the folder "djangoproject-main"
 - create a virtual environment -> "python -m venv myvenv"
 - run the virtual environment -> "myvenv\Scripts\activate"
 - install requirements.txt -> "pip install -r requirements.txt"
