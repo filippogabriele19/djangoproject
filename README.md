@@ -2,6 +2,7 @@
 
 Welcome to this project
 In this project, an online platform of a hypothetical Startup producing synthetic meat is created.
+
 Tools used: Django, HTML, Ethereum Blockchain
 
 
